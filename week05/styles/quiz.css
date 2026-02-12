@@ -28,11 +28,13 @@ form {
 
 label {
     margin-bottom: 5px;
+    font-weight: bold;
 }
 
 input, textarea, select {
     padding: 8px;
     font-size: 14px;
+    width: 100%;
 }
 
 button {
@@ -47,3 +49,4 @@ button {
 button:hover {
     background-color: #2a4d69;
 }
+
