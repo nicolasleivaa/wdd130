@@ -137,3 +137,169 @@ footer {
   width: 32px;
 }
 
+
+/* ── Contact Info + Map ── */
+.contact-info {
+  display: flex;
+  gap: 32px;
+  padding: 24px 16px;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.contact-details h2,
+.contact-map h2 {
+  font-family: var(--heading-font);
+  color: var(--accent1-color);
+  margin-bottom: 12px;
+}
+
+.contact-details p {
+  margin-bottom: 8px;
+  line-height: 1.7;
+}
+
+/* Google Map iframe — border set in CSS, NOT inline */
+.contact-map iframe {
+  border: 0;
+  display: block;
+  border-radius: 6px;
+}
+
+/* ── Team Section ── */
+.team {
+  padding: 24px 16px;
+  text-align: center;
+}
+
+.team h2 {
+  font-family: var(--heading-font);
+  color: var(--accent1-color);
+  margin-bottom: 20px;
+}
+
+.team-grid {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.team-grid figure {
+  flex: 1;
+  min-width: 180px;
+  text-align: center;
+}
+
+.team-grid img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 6px;
+  display: block;
+}
+
+.team-grid figcaption {
+  margin-top: 8px;
+  font-weight: bold;
+  color: var(--accent1-color);
+  font-size: 0.9rem;
+}
+
+/* ── Contact Form ── */
+.contact-form {
+  padding: 24px 16px 40px;
+}
+
+.contact-form h2 {
+  font-family: var(--heading-font);
+  color: var(--accent1-color);
+  margin-bottom: 20px;
+}
+
+.contact-form form {
+  max-width: 600px;
+}
+
+.form-group {
+  margin-bottom: 18px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+  color: var(--accent1-color);
+  margin-bottom: 6px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group textarea {
+  width: 100%;
+  padding: 10px 12px;
+  border: 2px solid var(--accent1-color);
+  border-radius: 4px;
+  font-family: var(--body-font);
+  font-size: 1rem;
+  color: var(--accent1-color);
+  box-sizing: border-box;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: var(--primary-color);
+}
+
+/* Fieldset for radio buttons */
+.form-group fieldset {
+  border: 2px solid var(--accent1-color);
+  border-radius: 4px;
+  padding: 14px 16px;
+}
+
+.form-group legend {
+  font-weight: bold;
+  color: var(--accent1-color);
+  padding: 0 6px;
+}
+
+.radio-label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 8px;
+  cursor: pointer;
+}
+
+.radio-label:last-child {
+  margin-bottom: 0;
+}
+
+/* Newsletter checkbox */
+.checkbox-label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  color: var(--accent1-color);
+}
+
+/* Submit button */
+.contact-form button[type="submit"] {
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  padding: 12px 32px;
+  font-family: var(--body-font);
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.contact-form button[type="submit"]:hover {
+  background-color: var(--accent1-color);
+}
