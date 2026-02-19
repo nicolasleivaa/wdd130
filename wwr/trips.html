@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Browse White Water Rafting trips — beginner floats to expert Class V rapids. Find your perfect river adventure and book today.">
+  <meta name="author" content="Nicolás Leiva">
+  <title>Our Trips | White Water Rafting</title>
+  <link rel="stylesheet" href="styles/rafting.css">
+</head>
+<body>
+
+<header>
+  <span class="logo-text">🌊 WWR</span>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="trips.html">Trips</a></li>
+      <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+
+  <!-- PAGE HERO -->
+  <div class="hero">
+    <img src="https://images.unsplash.com/photo-1467479201354-a6dabf9e4a5d?w=840&q=80" alt="Rafters paddling through rapids">
+    <h1>Our Trips</h1>
+    <article>
+      <img src="https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=200&q=80" alt="Rafting guide leading group">
+      <p>
+        From calm scenic floats to heart-pounding Class V rapids — we have a trip
+        for every skill level and every group size.
+      </p>
+    </article>
+  </div>
+
+  <!-- 3 TRIP DESCRIPTIONS with photos — CSS Grid -->
+  <section class="trips-section">
+    <h2>Choose Your Adventure</h2>
+
+    <div class="trips-grid">
+
+      <div class="trip-item">
+        <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&q=80" alt="Canyon Float — calm beginner rafting">
+        <div class="trip-body">
+          <h3>Canyon Float</h3>
+          <p class="trip-level">🟢 Beginner — Class II</p>
+          <p>Glide through stunning canyon walls on calm waters. Perfect for families, kids, and first-time rafters. A relaxing but scenic experience you won't forget.</p>
+          <p><strong>Duration:</strong> 3 Hours &nbsp;|&nbsp; <strong>Min Age:</strong> 6+ &nbsp;|&nbsp; <strong>Price:</strong> $79/person</p>
+        </div>
+      </div>
+
+      <div class="trip-item">
+        <img src="https://images.unsplash.com/photo-1530866495561-507c9faab2ed?w=400&q=80" alt="Thunder Rapids — intermediate rafting">
+        <div class="trip-body">
+          <h3>Thunder Rapids</h3>
+          <p class="trip-level">🟡 Intermediate — Class III–IV</p>
+          <p>Navigate exciting drops and powerful rapids with your expert guide leading the way. A full-day adrenaline rush that's perfect for adventurous groups.</p>
+          <p><strong>Duration:</strong> Full Day &nbsp;|&nbsp; <strong>Min Age:</strong> 14+ &nbsp;|&nbsp; <strong>Price:</strong> $149/person</p>
+        </div>
+      </div>
+
+      <div class="trip-item">
+        <img src="https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?w=400&q=80" alt="Devil's Backbone — expert Class V rafting">
+        <div class="trip-body">
+          <h3>Devil's Backbone</h3>
+          <p class="trip-level">🔴 Expert — Class V</p>
+          <p>The ultimate two-day challenge. Steep drops, massive rapids, and technical whitewater that will push your limits. Previous rafting experience required.</p>
+          <p><strong>Duration:</strong> 2 Days &nbsp;|&nbsp; <strong>Min Age:</strong> 18+ &nbsp;|&nbsp; <strong>Price:</strong> $299/person</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- TRIPS TABLE -->
+  <section class="trips-table-section">
+    <h2>All Trips at a Glance</h2>
+    <table class="trips-table">
+      <thead>
+        <tr>
+          <th>Trip Name</th>
+          <th>Difficulty</th>
+          <th>River Class</th>
+          <th>Duration</th>
+          <th>Min. Age</th>
+          <th>Price/Person</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Canyon Float</td>
+          <td>Beginner</td>
+          <td>Class II</td>
+          <td>3 Hours</td>
+          <td>6+</td>
+          <td>$79</td>
+        </tr>
+        <tr>
+          <td>Sunrise Paddle</td>
+          <td>Beginner</td>
+          <td>Class II</td>
+          <td>4 Hours</td>
+          <td>8+</td>
+          <td>$89</td>
+        </tr>
+        <tr>
+          <td>River Rush</td>
+          <td>Intermediate</td>
+          <td>Class III</td>
+          <td>6 Hours</td>
+          <td>12+</td>
+          <td>$119</td>
+        </tr>
+        <tr>
+          <td>Thunder Rapids</td>
+          <td>Intermediate</td>
+          <td>Class III–IV</td>
+          <td>Full Day</td>
+          <td>14+</td>
+          <td>$149</td>
+        </tr>
+        <tr>
+          <td>Wild Surge</td>
+          <td>Hard</td>
+          <td>Class IV–V</td>
+          <td>Full Day</td>
+          <td>16+</td>
+          <td>$199</td>
+        </tr>
+        <tr>
+          <td>Devil's Backbone</td>
+          <td>Expert</td>
+          <td>Class V</td>
+          <td>2 Days</td>
+          <td>18+</td>
+          <td>$299</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <!-- CALL TO ACTION to contact page -->
+  <section class="trips-cta">
+    <h2>Not Sure Which Trip Is Right for You?</h2>
+    <p>Our team is happy to help you pick the perfect adventure for your group and skill level.</p>
+    <a href="contact.html" class="cta-btn">Contact Us →</a>
+  </section>
+
+</main>
+
+<footer>
+  <p>© 2026 White Water Rafting | Nicolás Leiva</p>
+  <nav class="socialmedia">
+    <a href="https://facebook.com" target="_blank">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook">
+    </a>
+    <a href="https://instagram.com" target="_blank">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram">
+    </a>
+    <a href="https://twitter.com" target="_blank">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/5/53/X_logo_2023_original.svg" alt="Twitter">
+    </a>
+  </nav>
+</footer>
+
+</body>
+</html>
